@@ -1,0 +1,93 @@
+
+$bgprincipal-color: rgba(230, 230, 230, 1);
+$primary-color: rgba(196, 196, 196, 1);
+$secondary-color: rgba(0, 86, 119, 1);
+$terciary-color: rgba(255, 255, 255, 1);
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topHeader{
+    background-color: $bgprincipal-color;
+    display: flex;
+    justify-content: center;
+
+    img{
+        padding: 1.31em;
+    }
+}
+
+/* MAIN */
+
+.top-main{
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8em;
+
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 0.7rem;
+        color: $secondary-color;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}
+
+.containerInfo{
+    h2{
+        background-color: $primary-color;
+        color: $secondary-color;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+        padding: 0.1em 1em;
+    }
+
+    ul{
+        font-weight: bold;
+
+        span{
+            font-weight: normal;
+        }
+    }
+
+    dl{
+        padding: 0 1em;
+
+        dt{
+            font-weight: bold;
+
+            span{
+                font-weight: normal;
+            }
+        }
+
+        dd{
+            margin: 0 5em;
+        }
+    }
+}
+
+/* FOOTER */
+
+    footer{
+        margin-top: 9em;
+        background-color: $secondary-color;
+        color: $terciary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            margin: 1em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        a{
+            margin: 0.8em;
+        }
+    }
+
